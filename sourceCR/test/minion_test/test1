@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Simple test for minion. Test for 1 block with unify data. 
+if [ ! -n "$2" ]; then
+    echo "Please enter your minion IP and Port number.(for example: 127.0.0.1 12345)" 
+    echo "You should run your minion before running this script.."
+else
+    # directory for the test blocks
+    mkdir -p blocks
+    # generate one simple block for the test
+    ./cblock_files blocks 1 0 
+    # Generate write request
+    ./write_req 0 blocks/block0 "$1" "$2"
+    # Generate read request
+    ./read_req 0 blocks/block0 "$1" "$2"
+fi

@@ -1,0 +1,16 @@
+Tue Aug 18 11:34:40 2020
+Log Type - 3
+Message: Amir Ha Melech
+
+Tue Aug 18 11:35:52 2020
+Log Type - 3
+Message: Amir Ha Melech
+
+Tue Aug 18 11:36:44 2020
+Log Type - 3
+Message: Debug Error
+
+Tue Aug 18 11:36:48 2020
+Log Type - 3
+Message: Debug Error
+
